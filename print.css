@@ -1,0 +1,44 @@
+body,
+testimonial p.source {
+    font-family: Arial, sans-serif;
+}
+
+.topBar,
+.mainMenu,
+.contextMenuWrapper,
+.bottomBar,
+.whatNext {
+    display: none;
+}
+
+.backTo,
+.noPrint {
+    display: none;
+}
+
+p.button-center,
+p.button-right {
+    display: none;
+}
+
+.listTable thead td,
+.listTableHead td {
+    padding: 0.3em !important;
+    border-bottom: 1px solid #000 !important;
+}
+
+.listTable thead a,
+.listTableHead a {
+    display: inline;
+    color: #000;
+    border: 0;
+    text-decoration: none;
+}
+
+.styledTable thead td,
+.styledTable thead th {
+    color: #000;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}

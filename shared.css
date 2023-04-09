@@ -1,0 +1,737 @@
+body,
+div,
+p,
+th,
+td,
+li,
+dd,
+code,
+tt,
+h3 {
+    font-size: small;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+h1 {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 175%;
+    color: #000;
+    font-weight: normal;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    padding-right: 21px;
+    background-image: url(Bee21.gif);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    min-height: 21px;
+    margin-bottom: 0.5em;
+    margin-top: 0.4em;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    margin-top: 1.8em;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+h3 {
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #000;
+    margin-top: 1.4em;
+    margin-bottom: 0.6em;
+}
+
+h2 code {
+    font-size: 110%;
+}
+
+p {
+    line-height: 150%;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    text-align: left;
+}
+
+ul,
+ol {
+    line-height: 150%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 2em;
+    padding-left: 0;
+    text-align: left;
+}
+
+ul li,
+ol li {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    list-style-position: outside;
+}
+
+a {
+    text-decoration: underline;
+    color: #002db3;
+}
+
+a:visited {
+    color: #7d30a2;
+}
+
+img {
+    border: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+    border-bottom: none;
+    margin: 1.8em 0;
+}
+
+/** For reasons explained at https://stackoverflow.com/questions/1530685/ */
+sup {
+    line-height: normal;
+}
+
+p.subhead {
+    font-size: 135%;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p.subhead em {
+    text-decoration: underline;
+    font-style: normal;
+}
+
+p.subtle {
+    font-size: 130%;
+}
+
+ul.compact,
+ol.compact {
+    margin-left: 0;
+}
+
+ul.compact li,
+ol.compact li {
+    list-style-position: inside;
+    margin-left: 1em;
+}
+
+ul.shortitems,
+ol.shortitems {
+    text-align: left;
+}
+
+.shortitems ul,
+.shortitems ol {
+    text-align: left;
+    margin-top: 0;
+    line-height: 120%;
+    font-style: italic;
+}
+
+strong.very {
+    background-color: #ffe4c4;
+}
+
+.strongLinks a {
+    font-weight: bold;
+}
+
+p.contact {
+    font-style: italic;
+    margin-top: 1.8em;
+}
+
+h2.separatedOff {
+    border-top: 1px solid #ccc;
+    padding-top: 0.5em;
+    margin-top: 3.5em;
+}
+
+div.infoLines {
+    margin-left: 1.5em;
+}
+
+div.infoLines p {
+    line-height: 125%;
+}
+
+p.errorSummary {
+    color: #ff0000;
+    font-weight: bold;
+    text-align: left;
+}
+
+p.backTo {
+    text-align: right;
+}
+
+p.point,
+.points p {
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+}
+
+p.code {
+    margin-left: 1em;
+    font-family: monospace;
+}
+
+p.bigCodeLine {
+    font-size: 200%;
+    text-align: center;
+}
+
+.bigCode {
+    background-color: #ffff00;
+    padding: 0.1em 0.3em 0.1em 0.3em;
+    border: 1px solid #ccc;
+}
+
+.signupFormTable {
+    margin: 0 2em 0.6em 2em;
+}
+
+span.zwsp {
+    display: -moz-inline-box;
+    height: 1px;
+    display: inline-block;
+    overflow: hidden;
+    width: 1px;
+    margin-left: -1px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.put-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.put-center {
+    margin-top: 0.9em;
+    margin-bottom: 0.9em;
+}
+
+.put-right {
+    float: right;
+    margin-left: 0.6em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.put-left {
+    float: left;
+    margin-right: 0.6em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.titled {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+p.fig-title {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0.3em;
+    margin-bottom: 0.9em;
+}
+
+p.attribution {
+    text-align: right;
+    font-size: 70%;
+    margin-bottom: 0.9em;
+    margin-top: 0;
+    padding-top: 0;
+    color: #ccc;
+}
+
+.attribution a,
+.attribution a:hover,
+.attribution a:visited {
+    color: #ccc;
+}
+
+.highlighted,
+.aside,
+.testimonial,
+.whatNext,
+.halfBoxLeft,
+.halfBoxRight,
+.fullLinksMenu,
+.formula,
+.cutout,
+.glowing {
+    position: relative;
+}
+
+.highlighted .box,
+.aside .box,
+.testimonial .box,
+.whatNext .box,
+.halfBoxLeft .box,
+.halfBoxRight .box,
+.fullLinksMenu .box,
+.formula .box,
+.glowing .box {
+    border-radius: 2ex;
+    -moz-border-radius: 2ex;
+    -webkit-border-radius: 2ex;
+}
+
+.cutout .box {
+    border: 2px dashed #333;
+}
+
+fieldset.cutout {
+    border: none !important;
+}
+
+.highlighted .box,
+.aside .box,
+.testimonial .box,
+.glowing .box {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
+
+.boxed-top {
+    padding-top: 0.4em;
+}
+
+.highlighted {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+
+.highlighted p,
+.highlighted li {
+    font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
+    font-size: 120%;
+    font-style: italic;
+}
+
+.whatNext {
+    clear: both;
+    float: left;
+    margin-top: 2.4em;
+    margin-bottom: 1.2em;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+
+.whatNext .box {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border: 1px solid #ccc;
+}
+
+.whatNextAfter {
+    clear: left;
+}
+
+.whatNext h2,
+.fullLinksMenu h2,
+.formula label,
+h2.popout {
+    clear: both;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    position: relative;
+    margin: 0;
+    top: -0.5em;
+    padding: 0.2em 0.4em;
+    display: inline;
+}
+
+.whatNext ul {
+    margin-top: 0;
+    margin-bottom: 0.6em;
+}
+
+.testimonial p,
+.testimonial ul {
+    font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
+    font-style: italic;
+    line-height: 130%;
+}
+
+.testimonial p.source {
+    font-weight: bold;
+    text-align: right;
+    font-family: Verdana, Arial, sans-serif;
+    font-style: normal;
+}
+
+.aside p {
+    margin-top: 0;
+}
+
+.aside p.first,
+.aside h2 {
+    margin-top: 0.5em;
+}
+
+.fullLinksMenu .box {
+    border: 1px solid #ccc;
+}
+
+.fullLinksMenu h2 {
+    margin-left: 0.3em;
+}
+
+.fullLinksMenu h2 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.fullLinksMenu h2 a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.fullLinksMenu h2 a:visited {
+    color: #000;
+}
+
+.fullLinksMenu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    line-height: 130%;
+}
+
+.fullLinksMenu li {
+    padding: 0.3em 0.5em 0.5em 0.5em;
+    margin: 0;
+    border-top: 1px solid #ccc;
+}
+
+.fullLinksMenu li.first {
+    border-top: none;
+}
+
+.styledTable {
+    display: block;
+    padding: 0;
+    margin: 0.9em auto;
+}
+
+.styledTable table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.styledTable td,
+.styledTable th {
+    padding: 0;
+}
+
+.styledTable tbody td {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.16em;
+    padding-bottom: 0.16em;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.styledTable thead td,
+.styledTable thead th {
+    color: #fff;
+    background-color: #3077a1;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    padding-top: 0.26em;
+    padding-bottom: 0.3em;
+}
+
+.figures tbody td {
+    text-align: center;
+}
+
+.labelledItems {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.labelledItem {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    display: block;
+}
+
+.labelledItem p {
+    margin-top: 0.15em;
+    margin-bottom: 0.15em;
+    text-align: left;
+    line-height: 120%;
+}
+
+.labelledItem p.label {
+    float: left;
+    width: 50%;
+    padding-right: 0.7em;
+    font-weight: bold;
+}
+
+.labelledItem p.item {
+    margin-left: 50%;
+    padding-left: 0.7em;
+}
+
+.labelledItem:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.entryForm {
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+    margin-left: 1.4em;
+}
+
+.entryForm div {
+    display: block;
+}
+
+.entryForm div:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.entryForm div.formEntry {
+    margin-bottom: 1em;
+}
+
+.entryForm div.closelyFollowedFormEntry {
+    margin-bottom: 0.4em;
+}
+
+.entryForm label.label {
+    width: 22%;
+    float: left;
+    text-align: right;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+.entryForm p {
+    text-align: left;
+    line-height: 120%;
+    margin: 0;
+    padding: 0;
+}
+
+.entryForm p.longLabel {
+    margin-bottom: 0.2em;
+}
+
+.entryForm p.optionLongLabel {
+    margin-bottom: 0.6em;
+}
+
+.entryForm p.entry,
+.entryForm p.optionEntry,
+.entryForm p.closelyFollowedOptionEntry,
+.entryForm p.notes,
+.entryForm p.error,
+.entryForm p.submit,
+.entryForm .img-captcha,
+.entryForm p.textAreaEntry,
+.entryForm p.soloTextAreaEntry {
+    margin-left: 22%;
+    padding-left: 0.8em;
+}
+
+.entryForm p.textAreaEntry textarea,
+.entryForm p.soloTextAreaEntry textarea {
+    width: 92%;
+}
+
+.entryForm p.submit {
+    margin-bottom: 0.4em;
+}
+
+.entryForm input.bigButton {
+    font-size: 190%;
+    font-weight: bold;
+}
+
+.entryForm p.error {
+    color: #ff0000;
+    margin-bottom: 0.1em;
+}
+
+.entryForm p.notes {
+    font-style: italic;
+    margin-top: 0.1em;
+}
+
+.entryForm fieldset {
+    padding: 0;
+    margin-bottom: 1.5em;
+    border: 1px solid #ccc;
+}
+
+.entryForm fieldset.first {
+    margin-top: 0;
+}
+
+.entryForm fieldset p.fieldsetNotes {
+    margin-top: 0;
+    margin-bottom: 0.8em;
+}
+
+.entryForm fieldset p.fieldsetExplanatoryNotes {
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0.4em;
+}
+
+.entryForm fieldset .fieldsetInterior {
+    padding-top: 1.2em;
+    padding-bottom: 0.5em;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+}
+
+.entryForm fieldset legend {
+    border: 1px solid #ccc;
+    padding: 0.1em 0.2em;
+    margin-left: 0.5em;
+}
+
+.entryForm p.optionEntry {
+    margin-bottom: 0.4em;
+}
+
+.entryForm p.closelyFollowedOptionEntry {
+    margin-bottom: 0em;
+}
+
+.entryForm p.optionEntry input,
+.entryForm p.closelyFollowedOptionEntry input {
+    margin: 0.1em;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.entryForm p.optionEntry label,
+.entryForm p.closelyFollowedOptionEntry label {
+    vertical-align: text-bottom;
+    margin: 0;
+    padding: 0;
+    margin-left: 0.2em;
+}
+
+.inTextComments {
+    text-align: center;
+    width: 30em;
+    padding: 0 0 0 1.4em;
+    margin: 0;
+}
+
+.inTextComments textarea {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.inTextComments p {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0.6em;
+}
+
+.formulaWrapper {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1.4em;
+    margin-bottom: 0.9em;
+    padding: 0;
+}
+
+.formula {
+    display: table;
+    margin: 0 auto;
+}
+
+.formula .box {
+    padding: 0.6em 0.8em;
+    border: 1px solid #ccc;
+}
+
+.formula pre {
+    margin: 0;
+    padding: 0;
+    font-size: 110%;
+    font-family: monospace;
+    text-align: left;
+}
+
+.formula pre[id] {
+    padding-top: 3em;
+    margin-top: -3em;
+}
+
+.formula label {
+    top: -1.0em;
+    font-weight: bold;
+}
+
+.formula .formula-top {
+    padding-bottom: 0.18em;
+    border-bottom: 1px solid #000;
+}
+
+.formula .formula-bottom {
+    line-height: 170%;
+}

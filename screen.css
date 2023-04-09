@@ -1,0 +1,675 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin-bottom: 0.5em;
+}
+
+p a:hover,
+li a:hover,
+h2 a:hover {
+    background-color: #e4f3fb;
+}
+
+.contextMenuWrapper,
+.contextMenuWrapper-small {
+    float: left;
+    width: 27%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3em;
+}
+
+.contextMenuWrapper-small {
+    width: 16%;
+}
+
+.maintext {
+    margin-top: 2.4em;
+    padding-bottom: 3em;
+    float: left;
+    width: 68%;
+}
+
+.maintextError,
+.maintext-mainMenuOnly {
+    margin-top: 3.4em;
+    margin-bottom: 2em;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.maintext-mainMenuOnly {
+    margin-top: 4.0em;
+}
+
+@media (max-width:767px) {
+
+    .contextMenuWrapper,
+    .contextMenuWrapper-small {
+        float: none;
+        width: auto;
+    }
+
+    .contextMenuWrapper-small {
+        width: auto;
+    }
+
+    .maintext,
+    .maintextError,
+    .maintext-mainMenuOnly {
+        float: none;
+        width: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+.bottomBar {
+    clear: both;
+    border-top: 1px solid #ccc;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.bottomBar p {
+    text-align: center;
+    color: #666;
+    font-family: Arial, sans-serif;
+}
+
+a.button,
+a.button-smaller {
+    font-size: 135%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    white-space: nowrap;
+    background-color: #ffc377;
+    border: 2px outset #3077a1;
+    color: #144664 !important;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+}
+
+a.button-smaller {
+    font-size: 115%;
+    font-weight: normal;
+    padding: 0.1em 0.3em;
+}
+
+a.button:visited,
+a.button-smaller:visited {
+    color: #144664 !important;
+}
+
+a.button:hover,
+a.button-smaller:hover {
+    background-color: #ffb657 !important;
+}
+
+p.button-indented,
+p.button-center,
+p.button-right,
+p.button-wrapped {
+    padding-top: 1.2em;
+    padding-bottom: 1em;
+}
+
+p.button-indented {
+    margin-left: 1.6em;
+}
+
+p.button-center {
+    text-align: center;
+}
+
+p.button-right {
+    float: right;
+    margin-left: 0.4em;
+}
+
+.topBar {
+    background: #9ad8fb url(sky-wide.jpg) repeat;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding: 0 0 0 4%;
+    text-align: right;
+}
+
+.topBar .logoWrapper {
+    margin: 5px 10px 7px 0px;
+    background-image: url(BizEELogo160pxWideBlue.gif);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.topBar .logoWrapper,
+.topBar p.home,
+.topBar a.home {
+    width: 160px;
+    height: 77px;
+}
+
+.topBar .description {
+    display: table;
+    float: left;
+    height: 83px;
+}
+
+.topBar .oneLineDescription,
+.topBar .twoLineDescription {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.topBar .description p {
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #526875;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.topBar .description p .title,
+.topBar .description p.title {
+    font-family: Arial, sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.topBar .description p .subTitle {
+    font-style: italic;
+    padding-left: 0.7em;
+}
+
+.topBar .description p.subTitle {
+    margin-top: 3px;
+}
+
+.topBar .description .subTitle a,
+.topBar .description .subTitle a:visited {
+    color: #526875;
+}
+
+.topBar .sloganWrapper {
+    display: table;
+    height: 89px;
+    float: right;
+    margin-right: 4%;
+}
+
+.topBar .slogan {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.topBar .slogan p {
+    font-style: italic;
+    font-weight: bold;
+    color: #888;
+    margin: 0;
+    padding: 0;
+}
+
+.topBar p.home,
+.topBar a.home {
+    display: block;
+}
+
+.topBar p.home {
+    margin: 0;
+    padding: 0;
+}
+
+.topBar a.home:hover {
+    background-color: transparent;
+}
+
+.topBar span.homeText {
+    display: block;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.topBar .topBarInfo {
+    min-height: 89px;
+    margin-left: 180px;
+}
+
+.topBar .topBarInfo * {
+    margin: 0;
+    padding: 0;
+}
+
+.topBar .topBarInfo p {
+    text-align: right;
+    line-height: 120%;
+}
+
+.topBar p.language {
+    margin-right: 2%;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.topBar p.loginStatus,
+.topBar p.noLanguageLoginStatus {
+    margin-right: 6%;
+}
+
+.topBar p.loginStatus {
+    margin-top: 18px;
+}
+
+.topBar p.noLanguageLoginStatus {
+    padding-top: 33px;
+}
+
+.topBar p.language a:visited {
+    color: #002db3;
+}
+
+@media (max-width:767px) {
+    .topBar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .topBar .logoWrapper {
+        margin-left: 5px;
+    }
+
+    /* Following pixels were determined experimentally to get it all fitting	in a 360px wide viewport and lining up nicely on Android Chrome. */
+    .topBar .description {
+        height: 84px;
+    }
+
+    .topBar .description p .title,
+    .topBar .description p.title {
+        font-size: 24px;
+    }
+
+    /* Make subTitle font a little smaller so it doesn't push everything below 	on a 360px wide viewport. */
+    .topBar .description p.subTitle {
+        font-size: 10px;
+        margin-top: 4px;
+    }
+}
+
+.mainMenu {
+    margin: 0;
+    padding: 0;
+    float: right;
+    clear: both;
+}
+
+.mainMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.mainMenu ul li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    min-width: 150px;
+}
+
+.mainMenu ul li a {
+    white-space: nowrap;
+    text-align: center;
+    height: 2em;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    line-height: 2em;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #3077a1;
+    color: #fff;
+}
+
+.mainMenu ul li.last a {
+    border-right: 1px solid #ccc;
+}
+
+.mainMenu ul li a:hover {
+    background-color: #144664;
+}
+
+.mainMenu ul li a:visited {
+    color: #fff;
+}
+
+body.sectionone .mainMenu li.one a,
+body.sectiontwo .mainMenu li.two a,
+body.sectionthree .mainMenu li.three a,
+body.sectionfour .mainMenu li.four a,
+body.sectionfive .mainMenu li.five a {
+    background: transparent;
+    color: #000;
+}
+
+@media (max-width:767px) {
+
+    .mainMenu,
+    .mainMenu ul li {
+        min-width: 0;
+        float: none;
+    }
+
+    .mainMenu ul li a {
+        border-left: none;
+        border-right: none !important;
+    }
+}
+
+.contextMenu {
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 3.4em;
+    margin-bottom: 0em;
+    position: relative;
+}
+
+.contextMenuWrapper-small .contextMenu {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.contextMenu .box {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 4px solid #3077a1;
+    background-color: #234234;
+    border-radius: 1ex;
+    -moz-border-radius: 1ex;
+    -webkit-border-radius: 1ex;
+}
+
+.sidebar {
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 2.5em;
+}
+
+.nav {
+    background: #95d3f8 url(sky-square.jpg) repeat;
+    border-top: 1px solid #ccc;
+    border-bottom: 6px solid #3077a1;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #3077a1;
+    border-bottom-left-radius: 1ex;
+    border-bottom-right-radius: 1ex;
+    -moz-border-radius-bottomleft: 1ex;
+    -moz-border-radius-bottomright: 1ex;
+    -webkit-border-bottom-left-radius: 1ex;
+    -webkit-border-bottom-right-radius: 1ex;
+}
+
+.nav,
+.nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    line-height: 120%;
+    list-style: none;
+}
+
+.nav li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li a {
+    font-weight: bold;
+    display: block;
+    padding: 8px 8px 8px 10px;
+    text-decoration: none;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+* html .nav li a {
+    height: 1%;
+}
+
+.nav li a,
+.nav li a:visited {
+    color: #144664;
+}
+
+.nav li a:hover,
+.nav li a.current {
+    background-color: #3077a1;
+    color: #fff !important;
+}
+
+.nav li li a {
+    font-weight: normal;
+    padding: 6px 8px 6px 20px;
+}
+
+.nav li li strong a {
+    font-weight: bold;
+    padding: 7px 8px 7px 15px;
+}
+
+.highlighted .box,
+.aside .box,
+.testimonial .box,
+.halfBoxLeft .box,
+.halfBoxRight .box,
+.fullLinksMenu .box,
+.formula .box,
+.whatNext .box,
+.glowing .box {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.testimonial .box,
+.formula .box,
+.programOption .box,
+.glowing .box {
+    background-color: #ffe4c4;
+    /*background:#ffe4c4 url(../template/gradient-peach.jpg) repeat;*/
+    border-color: #e6ccac;
+}
+
+.cutout .box {
+    background-color: #ffe4c4;
+}
+
+.aside .box,
+.fullLinksMenu .box,
+.whatNext .box,
+.halfBoxLeft .box,
+.halfBoxRight .box {
+    background-color: #3077a1;
+    border-color: #758188;
+    color: #f9f9f9 !important;
+}
+
+.highlighted .box {
+    background-color: #e4f3fb;
+    border-color: #e4f3fb;
+}
+
+.testimonial a {
+    color: #144664;
+}
+
+.aside a,
+.fullLinksMenu a,
+.whatNext a,
+.halfBoxLeft a,
+.halfBoxRight a {
+    color: #fff;
+}
+
+.aside a:visited,
+.fullLinksMenu a:visited,
+.whatNext a:visited,
+.halfBoxLeft a:visited,
+.halfBoxRight a:visited {
+    color: #dbc8e4 !important;
+}
+
+.aside a:hover,
+.fullLinksMenu a:hover,
+.whatNext a:hover,
+.halfBoxLeft a:hover,
+.halfBoxRight a:hover {
+    background-color: #144664;
+}
+
+.aside h2,
+.halfBoxLeft h2,
+.halfBoxRight h2 {
+    color: #fff;
+}
+
+.fullLinksMenu li {
+    border-color: #758188;
+}
+
+.fullLinksMenu h2 a:visited {
+    color: #000 !important;
+}
+
+.highlighted p,
+.highlighted li {
+    color: #144664;
+}
+
+.hoverBlock {
+    background-color: #144664 !important;
+}
+
+.hoverBlock a {
+    background-color: transparent !important;
+}
+
+#lightbox {
+    background-color: #eee;
+    padding: 10px;
+    border-top: 1px solid #666;
+    border-left: 1px solid #666;
+    border-bottom: 2px solid #666;
+    border-right: 2px solid #666;
+}
+
+#lightboxDetails {
+    padding-top: 5px;
+    display: table-cell;
+}
+
+#lightboxCaption {
+    float: left;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#keyboardMsg {
+    float: right;
+}
+
+#keyboardMsg a {
+    text-decoration: none;
+}
+
+#closeButton {
+    top: 5px;
+    right: 5px;
+}
+
+#lightbox img {
+    border: none;
+    clear: both;
+}
+
+#overlay img {
+    border: none;
+}
+
+kbd {
+    color: #555;
+    background-color: #ddd;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0 3px 2px 4px;
+}
+
+.mainMenu ul li a,
+.nav li a:hover,
+.nav li a.current {
+    background-image: -moz-linear-gradient(#4595C4, #1E597D);
+    background-image: -ms-linear-gradient(#4595C4, #1E597D);
+    background-image: -webkit-linear-gradient(#4595C4, #1E597D);
+    background-image: -o-linear-gradient(#4595C4, #1E597D);
+    background-image: linear-gradient(#4595C4, #1E597D);
+}
+
+.aside .box,
+.fullLinksMenu .box,
+.whatNext .box,
+.halfBoxLeft .box,
+.halfBoxRight .box {
+    background-image: -moz-linear-gradient(#4595C4 0, #3077A1 0.8em);
+    background-image: -ms-linear-gradient(#4595C4 0, #3077A1 0.8em);
+    background-image: -webkit-linear-gradient(#4595C4 0, #3077A1 0.8em);
+    background-image: -o-linear-gradient(#4595C4 0, #3077A1 0.8em);
+    background-image: linear-gradient(#4595C4 0, #3077A1 0.8em);
+}
+
+/*.contextMenu .box {border-top-color:#3077A1;}*/
+.nav {
+    border-bottom-color: #1E597D;
+}
+
+.mainMenu ul li a:hover,
+.aside .hoverBlock,
+.halfBoxLeft .hoverBlock,
+.halfBoxRight .hoverBlock {
+    background-image: none;
+}
+
+/* Decided that the buttons looked better without this gradient.a.button {background-image:-moz-linear-gradient(#ffc377,#F7AB4A);background-image:-ms-linear-gradient(#ffc377,#F7AB4A);background-image:-webkit-linear-gradient(#ffc377,#F7AB4A);background-image:-o-linear-gradient(#ffc377,#F7AB4A);background-image:linear-gradient(#ffc377,#F7AB4A);}a.button:hover {background-image:none;}*/
+/*.testimonial .box,.formula .box,.programOption .box,.glowing .box,.cutout .box {background-image:-moz-linear-gradient(#FFEFDB 0,#FFE4C4 0.8em);background-image:-ms-linear-gradient(#FFE4C4,#FCD5A7);background-image:-webkit-linear-gradient(#FFE4C4,#FCD5A7);background-image:-o-linear-gradient(#FFE4C4,#FCD5A7);background-image:linear-gradient(#FFE4C4,#FCD5A7);}*/
+.contextMenuWrapper {
+    background-image: url(payment-options-mini-hover.gif);
+    background-repeat: no-repeat;
+    background-position: -1000px -1000px;
+}
+
+a.buy {
+    background-image: url(payment-options-mini.gif);
+    background-repeat: no-repeat;
+    background-position: 6.3em 50%
+}
+
+/* Complicated below - see http://stackoverflow.com/questions/2504071/ If it wasn't for the gradients,below would just contain the first line (necessary for IE).*/
+a.buy:hover,
+a.buy.current {
+    background-image: url(payment-options-mini-hover.gif);
+    background: url(payment-options-mini-hover.gif) no-repeat 6.3em 50%, -moz-linear-gradient(#4595C4, #1E597D) !important;
+    background: url(payment-options-mini-hover.gif) no-repeat 6.3em 50%, -ms-linear-gradient(#4595C4, #1E597D) !important;
+    background: url(payment-options-mini-hover.gif) no-repeat 6.3em 50%, -webkit-linear-gradient(#4595C4, #1E597D) !important;
+    background: url(payment-options-mini-hover.gif) no-repeat 6.3em 50%, -o-linear-gradient(#4595C4, #1E597D) !important;
+    background: url(payment-options-mini-hover.gif) no-repeat 6.3em 50%, linear-gradient(#4595C4, #1E597D) !important;
+}
+
+/*a.download {background-image:url(download-icon.png);background-repeat:no-repeat;background-position:12.2em 50%;}*/
